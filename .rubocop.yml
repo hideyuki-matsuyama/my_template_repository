@@ -37,7 +37,7 @@ Style/RescueStandardError:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/**/*'
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Exclude:
     - 'spec/**/*'
 
@@ -51,7 +51,7 @@ Naming/VariableName:
   Enabled: false
 Naming/BinaryOperatorParameterName:
   Enabled: false
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 
 RSpec/MultipleExpectations:
